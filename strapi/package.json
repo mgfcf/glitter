@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "strapi-plugin-wysiwsg-react-md-editor": "^4.2.0"
+  }
+}
