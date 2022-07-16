@@ -14,6 +14,7 @@
 
 <style scoped>
 
+
 header {
     text-align: center;
 }
@@ -25,11 +26,16 @@ header {
 
 .navigation * {
     display: inline-block;
-    padding: 1rem;
+    padding: 0.25rem 0.5rem;
     margin: 0rem 1rem;
 }
 
 .navigation *:hover {
     text-decoration: underline;
+}
+
+.navigation a.router-link-active {
+    border: 0.5px solid;
+    border-radius: 0.4rem;
 }
 </style>
