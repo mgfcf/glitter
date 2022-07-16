@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
     --vt-c-white: #ffffff;
@@ -81,6 +83,9 @@ body {
 }
 
 a {
+    font-family: "Merriweather", serif;
+    word-spacing: 1;
+
     color: inherit;
     text-decoration: inherit;
     -webkit-user-select: none;

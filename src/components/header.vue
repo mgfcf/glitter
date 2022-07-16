@@ -3,16 +3,14 @@
         <router-link to="/"><img alt="Giller" class="logo" src="@/assets/giller-logo.svg" width="125" height="125" />
         </router-link>
         <div class="navigation">
-
             <router-link to="/memos">Memos</router-link>
-            <router-link to="/essays">Essay</router-link>
+            <router-link to="/essays">Essays</router-link>
             <router-link to="/about">About</router-link>
         </div>
     </header>
 </template>
 
-<script>
-</script>
+<script></script>
 
 <style scoped>
 
