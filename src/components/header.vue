@@ -13,10 +13,9 @@
 <script></script>
 
 <style scoped>
-
-
 header {
     text-align: center;
+    margin-bottom: 3rem;
 }
 
 .navigation {
@@ -34,8 +33,7 @@ header {
     text-decoration: underline;
 }
 
-.navigation a.router-link-active {
-    border: 0.5px solid;
-    border-radius: 0.4rem;
+.navigation a.router-link-exact-active {
+    font-style: italic;
 }
 </style>

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Merriweather:wght@300&family=Raleway:wght@400&display=swap');
 
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
@@ -24,7 +24,7 @@
     --vt-c-text-light-1: var(--vt-c-indigo);
     --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
     --vt-c-text-dark-1: var(--vt-c-white);
-    --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+    --vt-c-text-dark-2: hsla(0, 0%, 75%, 0.64);
 }
 
 /* semantic color variables for this project */
@@ -36,8 +36,9 @@
     --color-border: var(--vt-c-divider-dark-2);
     --color-border-hover: var(--vt-c-divider-dark-1);
 
-    --color-heading: var(--vt-c-text-dark-2);
+    --color-heading: var(--vt-c-text-dark-1);
     --color-text: var(--vt-c-text-dark-1);
+    --color-subtitle: var(--vt-c-text-dark-2);
 
     --section-gap: 160px;
 }
@@ -63,6 +64,7 @@
     margin: 0;
     position: relative;
     font-weight: normal;
+    font-family: 'Raleway', sans-serif;
 }
 
 body {
@@ -96,4 +98,18 @@ a {
     /* IE10+/Edge */
     user-select: none;
     /* Standard */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Merriweather", serif;
+    color: var(--color-heading);
+}
+
+sub {
+    color: var(--color-subtitle);
 }
